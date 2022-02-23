@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+<meta charset="utf-8">
+<title> AnimeInfo! </title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body> 
+  <header class="shapka">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <div class="container-fluid">
+      <a class="navbar-brand" href="AnimeInfo.htm">AnimeInfo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="AnimeList.htm">List</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="ListOfT.htm">More Tittles</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="infa"><h1>Welcome to the AnimeInfo!</h1>
+<img onclick="soundClick()" src="mtrls/white1.png" alt="logo">
+<h3>In this site you can find actual information about your lovely anime/manga/ranobe and other entertaimens.</h3>
+
+<h3>List of Titles:</h3>
+
+<a class="btn btn-dark btn-lg"  href="AnimeTitleN1.htm" role="button" target="_blank">Jojo's Bizzare Adventures</a>
+<a class="btn btn-dark btn-lg"  href="AnimeTitleN2.htm" role="button" target="_blank">One Piece</a>
+<a class="btn btn-dark btn-lg"  href="AnimeTitleN3.htm" role="button" target="_blank">Monogatari Series</a>
+
+<h3>Created by our dream team: Adil Khamitov and Aliya Temirbolat</h3>
+</div>
+<script>
+  function soundClick() {
+    var audio = new Audio(); 
+    audio.src = 'mtrls/AnimeInfo.mp3'; 
+    audio.autoplay = true; 
+  }
+  
+  </script>
+</body>
+</html>
